@@ -18,7 +18,10 @@
       "dom"
     ],
     "paths": {
-      "angular-calendar-scheduler": ["./lib/public_api"]
+      "angular-calendar-scheduler": ["./lib/public_api"],
+      "core-js/es7/reflect": 
+      ["node_modules/core-js/proposals/reflect-metadata"]
+      ]
     },
   },
   "include": [
